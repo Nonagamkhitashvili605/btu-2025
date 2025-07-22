@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 95vw;
+}
+body {
+  width: 100%;
+  min-height: 200vh;
+  box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(185, 169, 182);
+  position: relative;
+}
+.color {
+  width: 100vw;
+  height: 40vh;
+  background-color: rgb(99, 9, 102);
+}
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+  border-radius: 20px;
+  padding: 20px;
+}
+h2 {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
