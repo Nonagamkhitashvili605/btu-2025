@@ -4,13 +4,48 @@
   padding: 0;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 200px 200px;
   gap: 10px;
 }
 .grid-container > div {
   background-color: blue;
   padding: 20px;
   text-align: center;
+} */
+.layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "iisferi iisferi nacrisferi sveti"
+    "tetri shavi shavi sveti";
+}
+
+.layout {
+  height: 100vh;
+  background-color: rgb(205, 213, 220);
+  gap: 50px;
+}
+.card1 {
+  background-color: rgb(68, 14, 98);
+  grid-area: iisferi;
+}
+.card2 {
+  background-color: rgb(87, 84, 84);
+  grid-area: nacrisferi;
+}
+.card2 {
+  background-color: white;
+  grid-area: sveti;
+}
+.card4 {
+  background-color: white;
+  grid-area: tetri;
+}
+.card5 {
+  background-color: rgb(34, 33, 33);
+  grid-area: shavi;
 }
